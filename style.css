@@ -1,0 +1,124 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+nav{
+    padding: 4px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    display: inline;
+    padding: 4px;
+    list-style: none;
+ }
+
+ nav ul li a{
+   text-decoration: none;
+   color: white;
+ }
+ .title{
+    font-size:large ;
+ }
+ .APC{
+    color:lightgrey;
+ }
+ .top-container{
+    background-color:aquamarine;
+    padding: 50px;
+ }
+ button{
+   background-color: cadetblue;
+   padding: 10px;
+   color: white;
+ }
+ button:hover{
+   background-color: cadetblue;
+   padding: 10px;
+   background-color: lightsteelblue;
+ }
+ .middle-container{
+   text-align: center;
+ }
+ .first{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 50px;
+   color: dodgerblue;
+   border-bottom-style: solid;
+   border-bottom-color: gray;
+ }
+.first img{
+   height: 400px;
+   width: 500px;
+}
+.second{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 50px;
+   color: dodgerblue;
+   height: 200px;
+
+}
+.third{
+   display: flex;
+   flex-wrap: wrap;
+   padding-right: 100px;
+   margin-left: 50px;
+   
+   color: dodgerblue;
+   border-bottom-style: solid;
+   border-bottom-color: gray;
+
+}
+.third img{
+   width: 300px;
+   
+}
+.topic{
+   margin-left: 95px;
+}
+.contact{
+   position: relative;
+   margin-left: 100px;
+   margin-top: 50px;
+   padding: 20px;
+
+}
+.contact input{
+   padding: 10px;
+   width: 400px;
+}
+.contact textarea{
+   padding: 10px;
+   width: 400px;
+   height: 200px;
+}
+.contabs{
+   position: absolute;
+   top:100px;
+   left:500px;
+   right: 300px;
+}
+.footer{
+   margin-left: 100px;
+   position: relative;
+   
+}
+.footabs{
+position: absolute;
+top:0;
+left:900px;
+
+
+}
+.footabs ul li{
+display: inline;
+   list-style: none;
+}
+.footabs ul li:hover{
+  color: cadetblue;
+   }
